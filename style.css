@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.top div{
+    height: 120px;
+    gap: 150px;
+}
+.top button{
+    padding: 15px 25px;
+    border-radius: 100px;
+}
+/*  */
+.cr div:nth-child(1){
+    gap: 180px;
+}
+.cr .one h1{
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+}
+.cr .one h1:nth-child(2){
+    color: #05B178;
+}
+.cr div:nth-child(2) img:nth-child(1){
+    right: 150px;
+    top: -30px;
+}
+/*  */
+.feature{
+    padding-top: 70px;
+    gap: 100px;
+}
+.feature div:nth-child(1) h1{
+    font-family: 'DM Serif Display', serif;
+}
+.feature div:nth-child(1) h1 span{
+    color: rgb(130, 19, 233);
+}
+.feature div:nth-child(1) p{
+    width: 600px;
+}
+.feature button{
+    padding: 15px 25px;
+    border-radius: 100px;
+}
+.feature .back div{
+    width: 380px;
+    padding: 15px 30px;
+}
+.feature .back div p{
+    width: 270px;
+}
+/*  */
+.backimg{
+    margin: 60px 0;
+    height: 300px;
+    background-image: url('./img/Background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    gap: 100px;
+}
+.backimg span{
+    font-family: 'DM Serif Display', serif;
+}
+/*  */
+.we{
+    margin-bottom: 80px;
+}
+.we h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+}
+.we_2 div{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.226);
+    width: 500px;
+}
+.we_2 div p{
+    font-family: 'DM Serif Display', serif;
+}
+.we_2 img{
+    height: 30px;
+}
+/*  */
+
+.beauty{
+    margin: 50px 80px;
+}
+.beauty h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px
+}
+.beauty button{
+    padding: 15px 25px;
+    border-radius: 100px;
+}
+/*  */
+.bg_img img:nth-child(1){
+    margin: 50px 0;
+}
+.bg_img img:nth-child(2){
+    height: 112.6px;
+}
+.bg_img2{
+    margin: 70px 0 50px;
+}
+/*  */
+.bg_img3{
+    background-image: url('./img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin: 50px 100px;
+}
+.bg_img3 h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+}
+.bg_img3 button{
+    padding: 15px 25px;
+    border-radius: 100px;
+}
+.bg_img3 div{
+    padding-top: 160px;
+    padding-left: 70px;
+}
+/*  */
+footer div:nth-child(2) img,
+div:nth-child(3) img{
+    height: 30px;
+}
+footer div:nth-child(2) div,
+div:nth-child(3) div{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+    width: 300px;
+}
+footer div:nth-child(3){
+    color: gray;
+}
+
+/*  */
+.last{
+    border-top: 1px solid rgba(255, 255, 255, 0.185);
+    margin: 0 100px;
+}
+.last div{
+    height: 50px;
+    color: gray;
+}
